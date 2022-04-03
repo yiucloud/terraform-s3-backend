@@ -15,7 +15,7 @@ resource "aws_resourcegroups_group" "resourcegroups_group" {
   resource_query {
     query = <<-JSON
     {
-      "ResourceTypeFilers": [
+      "ResourceTypeFilters": [
         "AWS::AllSupported"
       ], 
       "TagFilters": [
