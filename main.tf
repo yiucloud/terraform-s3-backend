@@ -17,7 +17,7 @@ resource "aws_resourcegroups_group" "resourcegroups_group" {
     {
       "ResourceTypeFilters": [
         "AWS::AllSupported"
-      ], 
+      ],
       "TagFilters": [
         {
           "Key": "ResourceGroup",
