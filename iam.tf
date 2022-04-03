@@ -42,7 +42,7 @@ data "aws_iam_policy_document" "policy_doc" {
     actions = ["s3:GetObject", "s3:PutObject", "s3:DeleteObject"]
 
     resources = [
-      "#{aws_s3_bucket.s3_bucket.arn}/*",
+      "${aws_s3_bucket.s3_bucket.arn}/*",
     ]
   }
 
